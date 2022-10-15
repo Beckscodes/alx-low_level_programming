@@ -1,1 +1,1 @@
-script that compiles a c file without linking
+script that generates an assembly of code
