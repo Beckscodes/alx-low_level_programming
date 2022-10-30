@@ -3,15 +3,15 @@
 /**
  * mul - function that multiplies 2 integers
  *
- * @x: x - variable
- * @y: y - variable
+ * @a: a - variable
+ * @a: b - variable
  * Return: 0 Always (Success)
  */
-int mul(int x, int y)
+int mul(int a, int b)
 {
 	int mul;
 
-	mul = x * Y;
+	mul = a * b;
 
 	return (mul);
 }
