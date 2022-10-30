@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i = 0;
-	long e = i, g = 2, sum = g;
+	long e = 1, g = 2, sum = g;
 	
 	while (g + e < 6000000)
 	{
