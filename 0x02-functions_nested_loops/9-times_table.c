@@ -1,12 +1,8 @@
 #include "main.h"
-
 /**
- *
  * times_table - print the 9 times table
- *
- * return: 0 (Always Success)
+ * Return: 0 (Always Success)
  */
-
 void times_table(void)
 {
 	int a, b, c;
@@ -22,7 +18,6 @@ void times_table(void)
 				{
 					_putchar('0');
 				}
-
 				if (b != 0)
 				{
 					_putchar(' ');
@@ -33,9 +28,7 @@ void times_table(void)
 					_putchar(',');
 					_putchar(' ');
 				}
-
 			}
-
 			else 
 			{
 				_putchar((c / 10) + '0');
@@ -45,15 +38,9 @@ void times_table(void)
 					_putchar(',');
 					_putchar(' ');
 				}
-
 			}
-
 		}
-
 		_putchar('\n');
-
 	}
-
 	
 }
-
