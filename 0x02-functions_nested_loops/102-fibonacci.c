@@ -2,7 +2,7 @@
 
 /**
  * main - print sum of Fibanocci numbers
- * less than 6000000.
+ * less than 4000000.
  *
  * Return: Nothing!
  */
@@ -11,7 +11,7 @@ int main(void)
 	int i = 0;
 	long e = 1, g = 2, sum = g;
 
-	while (g + e < 6000000)
+	while (g + e < 4000000)
 	{
 		g += e;
 		if (g % 2 == 0)
