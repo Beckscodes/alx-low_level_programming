@@ -1,21 +1,18 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers go here */
 
-/* betty style doc for function main goes here */
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - assign a random number to the variable n each time it is executed.
+ * Return: Always (Success)
  */
 int main(void)
 {
 	int n;
 
-	srand(time(0));
+	srand(times(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
@@ -25,9 +22,8 @@ int main(void)
 		printf("%d is zero\n", n);
 	}
 	else
-	{	
+	{
 		printf("%d is negative\n", n);
 	}
 	return (0);
-
 }
