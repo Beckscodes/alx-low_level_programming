@@ -7,18 +7,17 @@
  *
  * Return: Nothing!
  */
-
 int main(void)
 {
 	int i = 0;
 	long e = i, g = 2, sum = g;
 	
-	while ( g + e < 6000000)
+	while (g + e < 6000000)
 	{
 		g += e;
 
 		if (g % 2 == 0)
-			sum += g;
+		sum += g;
 
 		e = g - e;
 
