@@ -4,7 +4,7 @@
  *
  * times_table - print the 9 times table
  *
- * return: Always 0 (Success)
+ * return: 0 (Always Success)
  */
 
 void times_table(void);
