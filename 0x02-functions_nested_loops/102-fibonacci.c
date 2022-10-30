@@ -1,24 +1,31 @@
 #include <stdio.h>
 
 /**
- * main - print sum of Fibanocci numbers
- * less than 4000000.
+ * main - print first 52 fabionachi numbers
  *
  * Return: Nothing!
  */
 int main(void)
 {
 	int i = 0;
-	long e = 1, g = 2, sum = g;
+	long a = 1, b = 2;
 
-	while (g + e < 4000000)
+	while (i < 50)
 	{
-		g += e;
-		if (g % 2 == 0)
-		sum += g;
-		e = g - e;
+		if (i == 0)
+			printf("%ld", a);
+		else if (i == 1)
+			printf(", %ld", b);
+		else
+		{
+			b += a;
+			a = b - a;
+			printf(", %ld", b);
+		}
+
 		++i;
 	}
-	printf("%ld\n", sum);
+
+	printf("\n");
 	return (0);
 }
