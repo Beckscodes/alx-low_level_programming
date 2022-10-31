@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.m>
+#include <math.h>
 
 /**
  * main -  program that finds and prints the largest prime number
