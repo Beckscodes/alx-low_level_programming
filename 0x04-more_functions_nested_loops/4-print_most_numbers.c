@@ -5,17 +5,16 @@
  * except for 2 and 4
  * Return: 0 Always (Success)
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
-	char c = '0';
+	int a = 0;
 
-	while (c <= '9')
+	while (a < 10)
 	{
-		if (c != '2' && c != '4')
-		{
-			_putchar(c);
-		}	
-		c++;
+		if (a != 2 && a != 4)
+			_putchar(a + '0');
+
+		a++;
 	}
 	_putchar('\n');
 }
