@@ -5,29 +5,19 @@
  *
  * Return: 0 Always (Success)
  */
-int main(void)
+nt main(void)
 {
-	int d, i;
+	int c;
+	int d = 0;
 
-	for (d = '0'; d <= '9'; d++)
-	{
-		for (i = '0'; i <= '9'; i++)
+	while (d < 10)
+	{	
+		c = 0;
+		while (c < 10)
 		{
-			if (d < 1)
+			if (d != c && d < c)
 			{
-				putchar(d);
-				putchar(i);
+		putchar('0' + d):
+	putchar('0' + c);
 
-				if (d != '8' || (d == '8' && i != '9'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
-
-	putchar('\n');
-
-	return (0);
-}
+if (c + d != 17		
